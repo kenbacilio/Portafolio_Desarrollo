@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafc;
+  color: #333;
+}
+header {
+  background: #2b2d42;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(120deg, #00b4d8, #0077b6);
+  color: white;
+}
+.hero h2 span {
+  color: #ffd60a;
+}
+.btn {
+  background-color: white;
+  color: #0077b6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  padding: 50px;
+  text-align: center;
+}
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: #e9ecef;
+  padding: 40px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+form input, form textarea {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+footer {
+  background: #2b2d42;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
